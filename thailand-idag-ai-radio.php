@@ -11,15 +11,18 @@
 
 defined('ABSPATH') || exit;
 
+define('TAIR_VERSION', '0.1.0');
+define('TAIR_PLUGIN_PATH', plugin_dir_path(__FILE__));
+
 
 /**
- * Startmeddelande vid aktivering
+ * Aktivering
  */
 function tair_activate_plugin() {
 
     add_option(
         'tair_version',
-        '0.1.0'
+        TAIR_VERSION
     );
 
 }
@@ -31,7 +34,7 @@ register_activation_hook(
 
 
 /**
- * Administrationsmeny
+ * Adminmeny
  */
 function tair_admin_menu() {
 
@@ -67,12 +70,21 @@ function tair_dashboard() {
         </h1>
 
         <p>
-            Version 0.1.0 är installerad.
+            Version <?php echo esc_html(TAIR_VERSION); ?> är installerad.
         </p>
 
-        <p>
-            Nästa steg är att koppla pluginet till Thailand-idag nyheter.
-        </p>
+        <hr>
+
+        <h2>
+            Status
+        </h2>
+
+        <ul>
+            <li>✔ Plugin aktivt</li>
+            <li>✔ WordPress-anslutning fungerar</li>
+            <li>⏳ AI-modul väntar</li>
+            <li>⏳ Nyhetsinsamling väntar</li>
+        </ul>
 
     </div>
 
