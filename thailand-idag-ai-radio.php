@@ -89,5 +89,5 @@ function tair_dashboard() {
     </div>
 
     <?php
-
 }
+Improve plugin core structure v0.1.0
