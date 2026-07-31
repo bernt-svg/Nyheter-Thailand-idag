@@ -1,5 +1,7 @@
 <?php
-/**require_once TAIR_PLUGIN_PATH . 'src/Admin/Menu.php';
+/**
+require_once TAIR_PLUGIN_PATH . 'src/Settings/Settings.php';
+require_once TAIR_PLUGIN_PATH . 'src/Admin/Menu.php';
  * Plugin Name: Thailand-idag AI Radio
  * Plugin URI: https://www.thailand-idag.asia
  * Description: Skapar automatiserade radioprogram från Thailand-idag nyheter med hjälp av AI.
