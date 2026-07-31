@@ -1,0 +1,33 @@
+thailand-idag-ai-radio/
+│
+├── .github/
+│   └── workflows/
+│       └── php.yml
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── languages/
+│
+├── src/
+│   ├── Admin/
+│   ├── AI/
+│   ├── Audio/
+│   ├── Cron/
+│   ├── Feed/
+│   ├── Queue/
+│   ├── Radio/
+│   ├── Settings/
+│   └── Support/
+│
+├── templates/
+│
+├── tests/
+│
+├── composer.json
+├── phpunit.xml
+├── README.md
+├── uninstall.php
+└── thailand-idag-ai-radio.php
