@@ -91,3 +91,6 @@ function tair_dashboard() {
     <?php
 }
 Improve plugin core structure v0.1.0
+src/
+└── Admin/
+    └── Menu.php
