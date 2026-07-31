@@ -67,3 +67,6 @@ register_activation_hook(
     __FILE__,
     'tair_activate_plugin'
 );
+src/
+└── Settings/
+    └── Settings.php
