@@ -1,5 +1,17 @@
 <?php
-/**
+function tair_start_plugin(): void
+{
+
+    $menu = new \ThailandAI\Admin\Menu();
+
+    $menu->register();
+
+
+    $settings = new \ThailandAI\Settings\Settings();
+
+    $settings->register();
+
+}
 require_once TAIR_PLUGIN_PATH . 'src/Settings/Settings.php';
 require_once TAIR_PLUGIN_PATH . 'src/Admin/Menu.php';
  * Plugin Name: Thailand-idag AI Radio
